@@ -1,0 +1,42 @@
+ body {
+     background: rgb(247, 247, 247);
+     background: -moz-radial-gradient(center, ellipse cover, rgb(247, 247, 247) 1%, rgb(224, 224, 224) 100%);
+     background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(1%, rgb(247, 247, 247)), color-stop(100%, rgb(224, 224, 224)));
+     background: -webkit-radial-gradient(center, ellipse cover, rgb(247, 247, 247) 1%, rgb(224, 224, 224) 100%);
+     background: -o-radial-gradient(center, ellipse cover, rgb(247, 247, 247) 1%, rgb(224, 224, 224) 100%);
+     background: -ms-radial-gradient(center, ellipse cover, rgb(247, 247, 247) 1%, rgb(224, 224, 224) 100%);
+     background: radial-gradient(ellipse at center, rgb(247, 247, 247) 1%, rgb(224, 224, 224) 100%);
+     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#e0e0e0', GradientType=1);
+ }
+ 
+ #content {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     width: 700px;
+     height: 130px;
+     margin: -65px 0px 0px -350px;
+     font-family: 'Open Sans', sans-serif;
+     font-size: 30px;
+     color: #666;
+     font-weight: 300;
+     line-height: 35px;
+     text-shadow: 1px 1px #fff;
+ }
+ 
+ .copyright {
+     font-size: 15px;
+     line-height: 25px;
+     display: block;
+ }
+ 
+ .copyright>a {
+     color: #F04F53;
+     text-decoration: none;
+     transition: all 0.3s ease-in-out;
+ }
+ 
+ .copyright>a:hover {
+     color: #2DBFBD;
+     text-decoration: none;
+ }
